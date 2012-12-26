@@ -13,8 +13,12 @@
   {% endif %}
   <ul class=entries>
   {% for entry in entries %}
-    <! this means that the text has to be properly html formatted >
     <li><h2>{{ entry.title }}</h2>{{ entry.text|safe }}
+    {% if session.logged_in %}
+      <form action="{{ url_for('remove_entry', idnum=entry.idnum ) }}">
+      <input type=submit value=Delete>
+    {% endif %}
+    </li>     
   {% endfor %}
   </ul>
 {% endblock %}
