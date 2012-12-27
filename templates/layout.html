@@ -3,8 +3,10 @@
 <link rel=stylesheet type=text/css href="{{ url_for('static',
           filename='style.css') }}" >
 <div class=page>
-  <h1>Illustrations</h1>
+  <h1>Illustrations by Andrea</h1>
   <div class=metanav>
+  <a href="{{ url_for('commission') }}">request a commission</a>
+  <br/>
   {% if not session.logged_in %}
     <a href="{{ url_for('login') }}">log in</a>
   {% else %}

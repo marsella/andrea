@@ -29,6 +29,16 @@ def remove_entry(idnum):
   flash('Entry successfully deleted')
   return redirect(url_for('show_entries'))
 
+@app.route('/commission')
+def commission():
+  return render_template('commission.html')
+
+@app.route('/sendmail')
+def send_mail():
+  flash('DIDN\'T ACTUALLY SEND THAT!!!')
+  return redirect(url_for('show_entries'))
+
+
 @app.route('/login', methods=['GET', 'POST'])
 def login():
   error = None
