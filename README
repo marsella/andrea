@@ -1,13 +1,23 @@
 
+Due to client reasons, this site isn't going to be used. I might
+continue playing around with it, so stay tuned.
+
+In progress:
+  - send mail
+  - sort by category
+
+
+
 making a Flask-based website to serve as a portfolio and contact form for my
-cousin's pet-illstration business. Based heavily on the Flask tutorial. Will
-include a contact form/commision request.
+cousin's pet-illustration business. Based heavily on the Flask tutorial. 
+Will include a contact form/commision request.
 
 To run locally:
   Install virtualenv and run
     . venv/bin/activate
     pip install flask
-    python andrea.py
+    ./run
+
   See the installation guide for more info
     flask.pocoo.org/docs/installation
 

@@ -20,3 +20,9 @@ input           { font-family: monospace; font-size: 0.8em }
 .flash          { background: #CEE5F5; padding: 0.5em;
                   border: 1px solid #AACBE2; }
 .error          { background: #F0D6D6; padding: 0.5em; }
+/*
+#contentwrapper { width: 100%; }
+#rightcol       { float: left; width: 200px; margin-left: -200px;
+                  background: #FDE95E; j}
+#contentcol     { margin-right: 200px; }
+                  */

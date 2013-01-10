@@ -1,0 +1,5 @@
+#!/bin/bash
+
+python andrea.py
+#clean up socket issues
+lsof -i :5000
